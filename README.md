@@ -2,11 +2,12 @@
 Thực hiện phép nhân matmul hai ma trận Q, K tính attention score được đóng gói thành ip với hai giao diện slave:
 - Slave0 thực hiện control quá trình compute, interface AXI Lite.
 - Slave1 thực hiện nạp data Q, K vào BRAM q_ram, k_ram, interface AXI Lite.
-<img width="2980" height="1255" alt="IP LINEAR VER 3" src="https://github.com/user-attachments/assets/2ca808b1-cf00-4179-89d2-5f062b4ccd97" />
 Hình 1: Sơ đồ khối cấu trúc thực thi
+<img width="2980" height="1255" alt="IP LINEAR VER 3" src="https://github.com/user-attachments/assets/2ca808b1-cf00-4179-89d2-5f062b4ccd97" />
 
-<img width="508" height="389" alt="image" src="https://github.com/user-attachments/assets/80748973-c535-4d21-9e02-10392a6c06a0" />
+
 Hình 2: Kết quả đóng gói ip axi linear
+<img width="508" height="389" alt="image" src="https://github.com/user-attachments/assets/80748973-c535-4d21-9e02-10392a6c06a0" />
 
 
 ## 1. Tổng quan số module & hierarchy
